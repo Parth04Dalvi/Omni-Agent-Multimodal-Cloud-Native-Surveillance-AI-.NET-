@@ -1,4 +1,7 @@
 # Omni-Agent: Multimodal Cloud-Native Surveillance Orchestrator
+
+<img width="589" height="478" alt="image" src="https://github.com/user-attachments/assets/e6eb7f53-fa16-4289-a59b-1f4d7d8e2d7d" />
+
 Omni-Agent is a distributed, high-performance surveillance engine that integrates real-time computer vision with generative AI reasoning. By bridging YOLOv8 object detection and Gemini API natural language processing, the system enables autonomous monitoring and complex behavioral analysis through simple operator commands.
 
 Technical Overview
