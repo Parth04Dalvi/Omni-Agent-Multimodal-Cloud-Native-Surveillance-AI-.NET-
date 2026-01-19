@@ -10,22 +10,18 @@ Developed as a production-grade demonstration of full-stack AI orchestration, th
 Key Technical Pillars
 
 Multimodal Reasoning: Uses the Gemini API to translate natural language instructions into tactical monitoring tasks, such as identifying specific behavioral patterns or object interactions.
-+3
 
 
 High-Performance Vision: Employs YOLOv8 for real-time, 98% accurate object recognition within high-concurrency environments.
 
 
 Hybrid Backend Architecture: Orchestrates a .NET 8 microservices core for system state management with FastAPI AI inference nodes.
-+3
 
 
 Asynchronous Event Streaming: Utilizes Redis Streams and WebSockets to propagate alerts from the edge to the dashboard with minimal latency.
-+3
 
 
 Cloud-Native Deployment: Engineered for scalability using Docker containers and ready for Kubernetes orchestration.
-+3
 
 Tech Stack
 Backend: .NET 8 (C#), Python (FastAPI), WebSockets
@@ -42,7 +38,6 @@ Frontend: Next.js, Tailwind CSS
 
 
 Infrastructure: Docker, Kubernetes, CI/CD 
-+3
 
 System Architecture
 
@@ -53,11 +48,9 @@ Orchestration: The .NET 8 gateway manages user commands and system telemetry, st
 
 
 Inference: When a command trigger is met, the FastAPI service utilizes Gemini to "reason" over the scene context and validate complex alerts.
-+1
 
 
 Delivery: Alerts are pushed via WebSockets to a real-time Next.js dashboard for immediate operator action.
-+1
 
 Installation and Setup
 Clone the repository:
